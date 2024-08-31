@@ -71,7 +71,7 @@ function handleSearchElement(event) {
 }
 function formatDay(timestamp) {
     let date = new Date(timestamp * 1000) 
-  days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"] 
+    days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
     return days[date.getDay()];
 }
